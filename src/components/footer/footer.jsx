@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="fs-12 text-center">
-          Copyright © 2020 GYM FIT - All Rights Reserved
+          Copyright © 2021 GYM FIT - All Rights Reserved
         </div>
       </div>
     </FooterWrapper>
