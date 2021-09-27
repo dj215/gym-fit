@@ -72,16 +72,28 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-12  col-lg-2">
-            <div className="d-flex justify-content-center justify-content-lg-end">
-              <button className="flat ml-8">
+            <div className="d-flex justify-content-center justify-content-lg-end mb-10">
+              <a
+                href="https://www.facebook.com/"
+                target="__blank"
+                className="flat ml-8"
+              >
                 <img alt="facebook" src={facebook} className="img-fluid" />
-              </button>
-              <button className="flat ml-8">
+              </a>
+              <a
+                href="https://myaccount.google.com/"
+                target="__blank"
+                className="flat ml-8"
+              >
                 <img alt="google" src={google} className="img-fluid" />
-              </button>
-              <button className="flat ml-8">
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="__blank"
+                className="flat ml-8"
+              >
                 <img alt="twitter" src={twitter} className="img-fluid" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
